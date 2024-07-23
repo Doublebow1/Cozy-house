@@ -1,0 +1,68 @@
+@font-face {
+	font-family: Georgia, 'Times New Roman', serif;
+	src: url('C:\Users\user\OneDrive\Рабочий стол\CODE\.vscode\Фрилансер по жизни JS\shelter\assets\fonts\NotoSerifGeorgian-Regular.ttf');
+}
+
+/* header section styles */
+.header {
+	background-color: #fff;
+}
+
+.logo__title {
+	color: #545454;
+}
+
+.logo__subtitle {
+	color: #292929;
+}
+
+.navigation {
+	align-items: center;
+}
+
+.nav__item a {
+	color: #545454;
+}
+
+/* main section styles */
+.main {
+	background-color: #f6f6f6;
+	padding: 60px 0;
+	font-family: Georgia,;
+}
+
+.main__title {
+	text-align: center;
+}
+
+.friends__cards {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 80px 40px 100px;
+}
+
+.slider__wrapper {
+	overflow: visible;
+	margin-bottom: 60px;
+}
+
+.friends__slider {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 40px;
+}
+
+.iteration {
+	background-color: #F1CDB3;
+}
+
+.left-end, .right-end {
+	padding: 18px 17px 11px;
+	border: 2px solid var(--color-primary);
+	border-radius: 50%;
+	font-size: 2rem;
+	color: #000000;
+	/* width: 52px;
+	height: 52px; */
+}
